@@ -1,0 +1,11 @@
+a{
+	text-decoration: none;
+	&:visited{ opacity: 0.8; }
+	&:focus, &:active{
+		outline: 0;
+		position: relative;
+		top: 1px;
+	}
+	&:hover{ outline: 0; }
+	&:link{ -webkit-tap-highlight-color: @highlight-color; }
+}

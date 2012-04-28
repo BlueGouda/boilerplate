@@ -1,0 +1,70 @@
+body, button, input, select, textarea{ font-family: @base-font-stack; }
+
+h1, h2, h3, h4, h5, h6{
+	font-size: @base-font-size-percent;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+	img{ margin: 0; }
+	a{ font-weight: inherit; }
+}
+
+h1{
+	font-size: @base-font-size-pixels * 3;
+	margin-bottom: @base-font-size-pixels / 2;
+
+	font-size: 3rem;
+	margin-bottom: 0.5rem;
+}
+  
+h2{
+	font-size: @base-font-size-pixels * 2;
+	margin-bottom: @base-font-size-pixels * .75;
+    
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+}
+  
+h3{
+	font-size: @base-font-size-pixels * 1.5;
+	margin-bottom: @base-font-size-pixels;
+    
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+  
+h4{
+	font-size: @base-font-size-pixels * 1.1875;
+	margin-bottom: @base-font-size-pixels * 1.25;
+    
+	font-size: 1.2rem;
+	margin-bottom: 1.25rem;
+}
+      
+h5{
+	font-size: @base-font-size-pixels;
+	margin-bottom: @base-font-size-pixels * 1.5;
+    
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+h6{ 
+	font-size: @base-font-size-pixels;
+	font-size: 1rem; 
+}
+  
+p{
+	font-size: @base-font-size-pixels;
+	font-size: 1rem;
+	-webkit-hyphenate-character: "\2010";
+	-webkit-hyphenate-limit-after: 1;
+	-webkit-hyphenate-limit-before: 3;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+b, strong{ font-weight: bold; }
+
+small{ font-size: @base-font-size-percent * 0.75; }

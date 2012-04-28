@@ -1,0 +1,29 @@
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	button, input{ *overflow: auto; }
+	[colspan]{ text-align: center; }
+	[rowspan]{ vertical-align: middle; }
+}
+
+td{
+	vertical-align: top;
+	padding: 0.75em;
+}
+
+th{
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	padding: 0.75em;
+	&:empty{ border: none; }
+}
+
+thead, tfoot{ text-align: center; }
+
+[colspan="1"]{ text-align: left; }
+
+[rowspan="1"]{ vertical-align: top; }
+
+tbody tr:nth-of-type(odd){ background:rgba(0,0,0,0.05); }

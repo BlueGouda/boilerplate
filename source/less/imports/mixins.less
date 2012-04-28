@@ -1,0 +1,21 @@
+.inline-block{
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+
+.box-sizing(@value){
+	-webkit-box-sizing: @value;
+	-moz-box-sizing: @value;
+	box-sizing: @value;
+}
+
+.appearance(@value){
+	-webkit-appearance: @value;
+	-moz-appearance: @value;
+	-ms-appearance: @value;
+	-o-appearance: @value;
+	appearance: @value;
+}

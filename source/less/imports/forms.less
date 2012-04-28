@@ -1,0 +1,78 @@
+form{ margin: 0; }
+
+fieldset{
+		margin: 0;
+		border: 0;
+		padding: 0;
+		> :last-child{ margin-bottom: 0; }
+}
+
+label{ 
+		display: block;
+		cursor: pointer;
+}
+
+legend{
+		border: 0;
+		padding: 0;
+		*margin-left: -7px;
+}
+
+button{
+		cursor: pointer;
+		.appearance(button);
+		*overflow: visible;
+		font-size: 100%;
+		margin: 0; 
+		vertical-align: baseline; 
+		*vertical-align: middle;
+		line-height: normal;
+		&::-moz-focus-inner{
+			border: 0;
+			padding: 0;
+	}
+}
+
+select{ 
+		font-size: @base-font-size-percent; 
+		margin: 0; 
+		vertical-align: baseline; 
+		*vertical-align: middle;
+}
+
+textarea{
+		overflow: auto; 
+		resize: vertical;
+		font-size: @base-font-size-percent; 
+		margin: 0; 
+		vertical-align: top;
+		&:valid{}
+		&:invalid{ background-color: #f0dddd; }
+}
+
+input{
+	font-size: @base-font-size-percent;
+	margin: 0;
+	vertical-align: baseline;
+	*vertical-align: middle;
+	line-height: normal;
+	&[type="button"], &[type="reset"], &[type="submit"]{
+		cursor: pointer;
+		.appearance(button);
+		*overflow: visible;
+	}
+	&[type="checkbox"], &[type="radio"]{
+		.box-sizing(border-box);
+		padding: 0;
+	}
+	&[type="search"]{ 
+		.appearance(textfield);
+		.box-sizing(content-box);
+		&::-webkit-search-decoration{ -webkit-appearance: none; }
+	}
+	&::-moz-focus-inner{
+		border: 0;
+		padding: 0;
+	}
+	&:invalid{ background-color: #f0dddd; }
+}
