@@ -58,6 +58,8 @@
 #   end
 # end
 
+ignore "less/imports/*"
+
 set :css_dir, "css"
 
 set :js_dir, "js"
