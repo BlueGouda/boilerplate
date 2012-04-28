@@ -58,7 +58,7 @@
 #   end
 # end
 
-ignore "less/imports/*"
+ignore "css/imports/*"
 
 set :css_dir, "css"
 
