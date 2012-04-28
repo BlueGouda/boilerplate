@@ -1,3 +1,5 @@
+# Google Analytics
+set :ga, "UA-XXXXX-X"
 ### 
 # Compass
 ###
