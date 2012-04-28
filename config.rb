@@ -58,8 +58,6 @@
 #   end
 # end
 
-ignore '*.less'
-
 set :css_dir, "css"
 
 set :js_dir, "js"
@@ -78,7 +76,7 @@ configure :build do
   
   # Enable cache buster
   # activate :cache_buster
-  
+
   # Use relative URLs
   activate :relative_assets
   
