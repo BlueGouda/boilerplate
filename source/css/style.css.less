@@ -1,40 +1,76 @@
 @charset "UTF-8";
 
-@import "/source/css/imports/variables.less";
+// CSS Reset
+@import "/source/css/imports/reset.less";
+
+// Core variables and mixins
+@import "/source/css/imports/variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "/source/css/imports/mixins.less";
 
-@import "/source/css/imports/reset.less";
-@import "/source/css/imports/root.less";
-@import "/source/css/imports/typography.less";
-@import "/source/css/imports/links.less";
-@import "/source/css/imports/lists.less";
-@import "/source/css/imports/media.less";
+// Grid system and page structure
+@import "/source/css/imports/scaffolding.less";
+@import "/source/css/imports/grid.less";
+@import "/source/css/imports/layouts.less";
+
+// Base CSS
+@import "/source/css/imports/type.less";
+@import "/source/css/imports/code.less";
 @import "/source/css/imports/forms.less";
 @import "/source/css/imports/tables.less";
-@import "/source/css/imports/vendor.less";
-@import "/source/css/imports/ie.less";
 
-@import "/source/css/imports/grid.less";
-@import "/source/css/imports/elements.less";
+// Components: common
+@import "/source/css/imports/sprites.less";
+@import "/source/css/imports/dropdowns.less";
+@import "/source/css/imports/wells.less";
+@import "/source/css/imports/component-animations.less";
+@import "/source/css/imports/close.less";
+
+// Components: Buttons & Alerts
+@import "/source/css/imports/buttons.less";
+@import "/source/css/imports/button-groups.less";
+@import "/source/css/imports/alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less
+
+// Components: Nav
+@import "/source/css/imports/navs.less";
+@import "/source/css/imports/navbar.less";
+@import "/source/css/imports/breadcrumbs.less";
+@import "/source/css/imports/pagination.less";
+@import "/source/css/imports/pager.less";
+
+// Components: Popovers
+@import "/source/css/imports/modals.less";
+@import "/source/css/imports/tooltip.less";
+@import "/source/css/imports/popovers.less";
+
+// Components: Misc
+@import "/source/css/imports/thumbnails.less";
+@import "/source/css/imports/labels-badges.less";
+@import "/source/css/imports/progress-bars.less";
+@import "/source/css/imports/accordion.less";
+@import "/source/css/imports/carousel.less";
+@import "/source/css/imports/hero-unit.less";
+
+// Utility classes
+@import "/source/css/imports/utilities.less"; // Has to be last to override when necessary
 
 
-@media only screen and (min-width: 480px){
+@media only screen and (max-width: 480px){
 
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 600px){
 
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
 
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (max-width: 992px){
 
 }
 
-@media only screen and (min-width: 1382px){
+@media only screen and (max-width: 1382px){
 
 }
 
