@@ -91,6 +91,6 @@ configure :build do
   # require "middleman-smusher"
   # activate :smusher
 
-  # Or use a different image pat[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*h
+  # Or use a different image path
   # set :http_path, "/Content/images/"
 end
