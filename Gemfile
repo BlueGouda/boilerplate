@@ -1,5 +1,5 @@
 source :rubygems
 
-gem "middleman", "~>3.0.0.beta.2"
-gem "less", "~>2.2.1" 
+gem "middleman"
+gem "zurb-foundation", "~> 3.0.5"
 gem "therubyracer", "~>0.10.0"

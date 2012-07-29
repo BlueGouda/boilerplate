@@ -1,6 +1,6 @@
 # Google Analytics
 set :ga, "UA-XXXXX-X"
-### 
+###
 # Compass
 ###
 # Susy grids in Compass
@@ -11,6 +11,8 @@ set :ga, "UA-XXXXX-X"
 # compass_config do |config|
 #   config.output_style = :compact
 # end
+require 'zurb-foundation'
+preferred_syntax = :scss
 
 ###
 # Haml
@@ -32,13 +34,13 @@ set :ga, "UA-XXXXX-X"
 ###
 
 # Per-page layout changes:
-# 
+#
 # With no layout
 # page "/path/to/file.html", :layout => false
-# 
+#
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
-# 
+#
 # A path which all have the same layout
 # with_layout :admin do
 #   page "/admin/*"
@@ -74,21 +76,21 @@ activate :directory_indexes
 configure :build do
   # For example, change the Compass output style for deployment
   # activate :minify_css
-  
+
   # Minify Javascript on build
   # activate :minify_javascript
-  
+
   # Enable cache buster
   # activate :cache_buster
 
   # Use relative URLs
   activate :relative_assets
-  
+
   # Compress PNGs after build
   # First: gem install middleman-smusher
   # require "middleman-smusher"
   # activate :smusher
-  
-  # Or use a different image path
+
+  # Or use a different image pat[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*h
   # set :http_path, "/Content/images/"
 end

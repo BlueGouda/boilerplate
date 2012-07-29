@@ -19,6 +19,7 @@
 .tmproj
 nbproject
 Thumbs.db
+Gemfile.lock
 
 # Dreamweaver added files
 _notes
@@ -36,4 +37,5 @@ intermediate
 publish/
 build/
 tmp/
+.sass-cache
 .idea
