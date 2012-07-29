@@ -1,4 +1,19 @@
+@import "settings";
+
+//  Zurb Foundation includes, remove as necessary.
 @import "foundation/base";
+@import "foundation/buttons";
+@import "foundation/forms";
+@import "foundation/globals";
+@import "foundation/grid";
+@import "foundation/navbar";
+@import "foundation/orbit";
+@import "foundation/reveal";
+@import "foundation/tabs";
+@import "foundation/typography";
+@import "foundation/ui";
+
+
 /* --------------------------------------------------
    Table of Contents
 -----------------------------------------------------
