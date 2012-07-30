@@ -1,0 +1,10 @@
+---
+title: QUnit
+---
+
+<% content_for :assets do %>
+  <%= stylesheet_link_tag 'qunit' %>
+<% end %>
+
+<div id="qunit"></div>
+<%= javascript_include_tag 'libs/qunit', 'tests/tests' %>
