@@ -1,4 +1,4 @@
-//=require libs/_foundation.min.js
+//=foundation
 //=require _plugins.js
 
 /* Author:
